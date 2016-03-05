@@ -7,7 +7,7 @@ Custom translations for YouTrack
 installation
 ============
 
-If YouTrack is running as a service on Windows translation directory must be specified via JVM startup parameters.
+If YouTrack 6.5+ is running as a service on Windows translation directory must be specified via JVM startup parameters.
 Short info how to locate it could be found [here](https://confluence.jetbrains.com/display/YTD6/Providing+Java+Start+Parameters).
 
 On Windows Server 2012 R2 the procedure is:
@@ -18,3 +18,9 @@ On Windows Server 2012 R2 the procedure is:
  * inject extra options into the newly created file, for translation purposes it could be: `-Djetbrains.mps.webr.i18n.custom-translations=<translation_directory>` and directory must point, where `supportedLocales.xml` is placed
 
 example: -Djetbrains.mps.webr.i18n.custom-translations=C:\YouTrack\translations
+
+
+how to
+======
+
+Detailed guide about meaning of the files and fields is provided [here](https://confluence.jetbrains.com/display/YTD65/Translating+YouTrack+UI).
