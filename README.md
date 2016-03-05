@@ -17,7 +17,7 @@ On Windows Server 2012 R2 the procedure is:
  * beware of `youtrack.jvmoptions.dist` as it's recreated each time YouTrack service restarts
  * inject extra options into the newly created file, for translation purposes it could be: `-Djetbrains.mps.webr.i18n.custom-translations=<translation_directory>` and directory must point, where `supportedLocales.xml` is placed
 
-example: -Djetbrains.mps.webr.i18n.custom-translations=C:\YouTrack\translations
+example: `-Djetbrains.mps.webr.i18n.custom-translations=C:\YouTrack\translations`
 
 
 how to
