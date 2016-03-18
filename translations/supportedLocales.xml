@@ -5,10 +5,10 @@
         <locale>cs_CZ</locale>
     </localeEntry>
     <localeEntry>
-        <name>Polski (community)</name>
+        <name>Polski (Titanium)</name>
         <locale>pl_PL</locale>
     </localeEntry>
-	<localeEntry>
+    <localeEntry>
         <name>Português Brasileiro (community)</name>
         <locale>pt_BR</locale>
     </localeEntry>
