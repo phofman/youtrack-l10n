@@ -1,7 +1,8 @@
 youtrack-l10n
 =============
 
-Custom translations for YouTrack
+Custom translations for YouTrack.
+Checkout the [official guide](https://youtrack-support.jetbrains.com/hc/en-us/articles/206545789-Translating-YouTrack-UI) before starting updating any file in this repository.
 
 
 installation
